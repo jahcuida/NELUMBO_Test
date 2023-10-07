@@ -1,0 +1,41 @@
+html 
+    head 
+        title Prueba NodeJS Contacto
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css")
+        link(rel="stylesheet"  href="/public/styles/contact.css")
+    body
+        include partials/header
+        div(class="container")
+            div(class="info")
+                div(class="contact-info")
+                    i.fas.fa-home
+                    div
+                        strong California United States
+                        br
+                        p Santa monica bullevard
+                div(class="contact-info")
+                    i.fas.fa-headphones 
+                    div
+                        strong 00 &#40;440&#41; 9865 562
+                        br
+                        p Mon to Fri 9am to 6pm
+                div(class="contact-info")
+                    i.fas.fa-envelope
+                    div 
+                        strong support@colorlib.com
+                        br
+                        p Send us your query anytime!
+                     
+            form(action="/contact", method="post")
+                div
+                    input(type="text", id="namess", name="namess",placeholder="Enter your name", required )
+                    br
+                    input(type="email", id="email", name="email",placeholder="Enter email address", required)
+                    br
+                    input(type="text", id="subject", name="subject",placeholder="Enter Subject", required)
+                    br
+                div
+                    textarea(id="message", name="message", rows="7", cols="50" placeholder="Enter Message", required)
+                    br
+                    button(id="send" type="submit") SEND MESSAGE
+    script(src="./scripts/functions.js")

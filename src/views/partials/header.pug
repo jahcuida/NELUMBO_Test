@@ -1,0 +1,15 @@
+html 
+    head 
+        link(rel="stylesheet" href="/public/styles/header.css")
+    body
+        hr
+        header
+            h2 Sensive
+            nav
+                ul
+                    li 
+                        a(href="/", class=currentPage === '/' ? 'actual-page' : '')  Home
+                    li 
+                        a(href="./ToS", class=currentPage === '/ToS' ? 'actual-page' : '') ToS
+                    li 
+                        a(href="./contact", class=currentPage === '/contact' ? 'actual-page' : '') Contacto

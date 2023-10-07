@@ -1,0 +1,53 @@
+.main-image {
+  width: 770px;
+  height: 400px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  position: absolute;
+  margin-top: 10%;
+  color: white;
+}
+div h2 {
+  margin-left: 0;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -1rem;
+}
+p {
+  text-align: center;
+}
+.images-grid {
+  width: 770px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+img {
+  width: 100%;
+  height: 100px;
+}
+.images-grid p:first-of-type {
+  font-weight: 700;
+}
+.images-grid p:last-child {
+  margin-top: -0.5rem;
+  color: gray;
+}
+button {
+  color: orange;
+  background-color: black;
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  cursor: pointer;
+}
