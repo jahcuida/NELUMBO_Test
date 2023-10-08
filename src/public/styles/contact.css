@@ -1,53 +1,46 @@
-.container{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 7rem;
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 7rem;
 }
-input{
-    width: 15rem;
-    height: 2rem;
-    margin-bottom: 0.5rem;
-    margin-right: 1.5rem;
+input {
+  width: 15rem;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+  margin-right: 1.5rem;
 }
 form {
-    display: flex;
-    margin-right: 8rem;
-
+  display: flex;
+  margin-right: 8rem;
 }
 
-.info{
-    margin-left: 9rem;
+.info {
+  margin-left: 9rem;
 }
-.contact-info{
-    display: flex;
-    margin-left: 2rem;
+.contact-info {
+  display: flex;
+  margin-left: 2rem;
 }
-i{
-    color:rgb(255, 197, 88);
+i {
+  color: rgb(255, 197, 88);
 }
-/* strong{
-    display: flex;
-} */
-p{  
-    margin-top: -0.01rem;
-    display: flex;
+p {
+  margin-top: -0.01rem;
+  display: flex;
 }
-div{
-    margin-bottom: 1rem;
+div {
+  margin-bottom: 1rem;
 }
-.contact-info div:first-of-type{
-    margin-left: 1rem;
+.contact-info div:first-of-type {
+  margin-left: 1rem;
 }
 button {
-    color: orange;
-    height: 2rem;
-    background-color: black;
-    margin-top: 1rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    cursor: pointer;
-    float: right;
-  }
-  
-
-
+  color: orange;
+  height: 2rem;
+  background-color: black;
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  cursor: pointer;
+  float: right;
+}

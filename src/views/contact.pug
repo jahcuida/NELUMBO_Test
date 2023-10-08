@@ -2,7 +2,7 @@ html
     head 
         title Prueba NodeJS Contacto
         link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css")
-        link(rel="stylesheet"  href="/public/styles/contact.css")
+        link(rel="stylesheet" href="/public/styles/contact.css")
     body
         include partials/header
         div(class="container")
@@ -25,17 +25,17 @@ html
                         strong support@colorlib.com
                         br
                         p Send us your query anytime!
-                     
-            form(action="/contact", method="post")
+
+            form(action="/contact" method="post")
                 div
-                    input(type="text", id="namess", name="namess",placeholder="Enter your name", required )
+                    input(type="text" id="namess" name="namess" placeholder="Enter your name", required )
                     br
-                    input(type="email", id="email", name="email",placeholder="Enter email address", required)
+                    input(type="email" id="email" name="email" placeholder="Enter email address", required)
                     br
-                    input(type="text", id="subject", name="subject",placeholder="Enter Subject", required)
+                    input(type="text" id="subject" name="subject" placeholder="Enter Subject", required)
                     br
                 div
-                    textarea(id="message", name="message", rows="7", cols="50" placeholder="Enter Message", required)
+                    textarea(id="message" name="message" rows="7" cols="50" placeholder="Enter Message", required)
                     br
                     button(id="send" type="submit") SEND MESSAGE
     script(src="./scripts/functions.js")
