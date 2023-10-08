@@ -1,3 +1,6 @@
+body{
+  font-family: 'Oswald', sans-serif;
+}
 .container div {
   width: 50rem;
   display: flex;

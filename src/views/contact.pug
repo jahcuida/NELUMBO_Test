@@ -3,6 +3,9 @@ html
         title Prueba NodeJS Contacto
         link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css")
         link(rel="stylesheet" href="/public/styles/contact.css")
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet")
     body
         include partials/header
         div(class="container")
@@ -38,4 +41,3 @@ html
                     textarea(id="message" name="message" rows="7" cols="50" placeholder="Enter Message", required)
                     br
                     button(id="send" type="submit") SEND MESSAGE
-    script(src="./scripts/functions.js")
